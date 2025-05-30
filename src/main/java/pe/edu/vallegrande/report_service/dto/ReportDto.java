@@ -15,10 +15,8 @@ public class ReportDto {
     @NotBlank(message = "El trimestre es obligatorio")
     private String trimester;
 
-    @NotBlank(message = "La descripción es obligatoria")
     private String descriptionUrl;
 
-    @NotBlank(message = "La URL del horario es obligatoria")
     private String scheduleUrl;
 
     private String status;
